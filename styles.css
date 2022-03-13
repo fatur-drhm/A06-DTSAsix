@@ -199,13 +199,19 @@ header {
   z-index: 10;
 }
 
+header img{
+  width: 125px;
+  aspect-ratio: auto 125/100;
+}
+
 .logo {
   width: 125px;
-  margin-top: 0px;
+  margin-top: 5px;
 }
 
 .header-left {
   float: left;
+  padding-left: 20px;
 }
 
 .header-right {
