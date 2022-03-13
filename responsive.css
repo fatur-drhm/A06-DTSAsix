@@ -1,0 +1,115 @@
+@media all and (max-width: 1000px) {
+  .main-wrapper {
+    width: 100%;
+    position: unset;
+  }
+
+  .main-wrapper h2 {
+    font-size: 28px;
+  }
+
+  .main-wrapper p {
+    font-size: 24px;
+  }
+
+  .main-wrapper hr {
+    width: 290px;
+    margin-left: 80px;
+  }
+
+  .btn-wrapper {
+    margin: 20px 140px;
+  }
+
+  .btn {
+    padding: 5px 9px;
+    font-size: small;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    text-align: center;
+    box-shadow: 0 7px #0032888a;
+  }
+
+  .main-service {
+    width: 660px;
+    margin: 0 auto;
+    position: unset;
+  }
+
+  .serv-content {
+    padding: 10px 10px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+  }
+
+  .serv-content2 {
+    padding: 10px 10px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+  }
+
+  .serv-content i {
+    padding: 10px;
+  }
+
+  .serv-content2 i {
+    padding: 10px;
+  }
+
+  .serv-content h5 {
+    font-size: 10px;
+  }
+
+  .serv-content2 h5 {
+    font-size: 10px;
+  }
+}
+
+@media all and (max-width: 670px) {
+  .main-wrapper {
+    width: 46rem;
+    text-align: center;
+  }
+  .main-wrapper h2 {
+    font-size: 45px;
+  }
+
+  .main-wrapper p {
+    font-size: 40px;
+  }
+
+  .main-wrapper hr {
+    margin: auto;
+  }
+
+  .btn {
+    padding: 18px 30px;
+    font-size: medium;
+  }
+
+  .main-service {
+    width: 660px;
+    margin: 0 35px;
+    display: block;
+  }
+
+  .serv-content {
+    padding: 25px 125px;
+  }
+
+  .serv-content2 {
+    padding: 25px 125px;
+  }
+
+  .serv-content h5 {
+    font-size: 35px;
+  }
+
+  .serv-content2 h5 {
+    font-size: 35px;
+  }
+}
