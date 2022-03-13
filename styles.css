@@ -183,3 +183,56 @@ a {
   opacity: 0.9;
 }
 /* end main css */
+
+.container {
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+header {
+  height: 70px;
+  width: 100%;
+  background-color: rgba(5, 9, 103, 0.8);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+header img {
+  width: 125px;
+}
+
+.logo {
+  width: 125px;
+  margin-top: 20px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  margin-right: 25px;
+}
+
+.header-right:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.header-right a {
+  line-height: 70px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+
+
+
+
+
+
