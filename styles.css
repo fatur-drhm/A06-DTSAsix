@@ -209,13 +209,9 @@ header {
   z-index: 10;
 }
 
-header img {
-  width: 125px;
-}
-
 .logo {
   width: 125px;
-  margin-top: 20px;
+  margin-top: 0px;
 }
 
 .header-left {
@@ -227,7 +223,7 @@ header img {
   margin-right: 25px;
 }
 
-.header-right:hover {
+.header-right a:hover {
   background-color: rgba(255, 255, 255, 0.5);
 }
 
@@ -240,8 +236,15 @@ header img {
   transition: all 0.5s;
 }
 
+.fa-bars {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
 
-
+/* end header */
 
 
 
