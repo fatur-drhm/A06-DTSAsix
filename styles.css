@@ -250,6 +250,8 @@ header img {
 .body2 {
   height: 450px;
   background-color: #2d31fa;
+  display: flex;
+  justify-content: center;
 }
 
 .ourteam-title h1 {
@@ -260,10 +262,6 @@ header img {
   text-align: center;
   padding-top: 50px;
   padding-bottom: 20px;
-}
-
-.ourteams {
-  padding-left: 110px;
 }
 
 .ourteam-member {
