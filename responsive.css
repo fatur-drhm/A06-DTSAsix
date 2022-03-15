@@ -181,14 +181,13 @@
   /*end body 1*/
   /* start body 2 */
   .body2 {
-    display: flex;
+    display: flex !important;
     width: 46rem;
-    height: 100px;
+    height: 100% !important;
   }
   .ourteams {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    display: flex !important;
+    flex-direction: column !important;
   }
 
   .ourteam-title h1 {
@@ -203,18 +202,19 @@
 
   .ourteam-member {
     padding: 25px 125px;
+    text-align: center !important;
   }
 
   .ourteam-member img {
-    width: 200%;
-    height: 200%;
+    width: 75% !important;
+    height: 75% !important;
   }
 
   .ourteam-member h4 {
     color: white;
-    font-size: 10px;
-    padding-top: 15px;
+    font-size: 170% !important;
     text-align: center;
+    padding-top: 15px;
   }
 
   .header-right {
