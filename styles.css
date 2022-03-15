@@ -292,65 +292,6 @@ header img {
   transition: ease 0.5s;
 }
 
-@media screen and (max-width: 800px) {
-  .ourteams {
-    padding-left: 50px;
-  }
-
-  .ourteam-title h1 {
-    color: white;
-    font-size: 30px;
-    letter-spacing: 8px;
-    font-family: "Times New Roman", Times, serif;
-    text-align: center;
-    padding-top: 30px;
-    padding-bottom: 10px;
-  }
-
-  .ourteam-member {
-    padding: 15px;
-  }
-  .ourteam-member img {
-    width: 90px;
-    height: 90px;
-  }
-
-  .ourteam-member img:hover {
-    width: 160px;
-    height: 160px;
-    transition: width 1s, height 1s;
-  }
-
-  .ourteam-member h4 {
-    color: white;
-    font-size: 9px;
-    padding-top: 15px;
-    text-align: center;
-  }
-}
-
-@media screen and (max-width: 1000px) {
-  .ourteam-member img {
-    width: 100px;
-    height: 100px;
-  }
-
-  .ourteam-member {
-    padding: 20px;
-  }
-  .ourteam-member img:hover {
-    width: 150px;
-    height: 150px;
-    transition: width 1s, height 1s;
-  }
-
-  .ourteam-member h4 {
-    color: white;
-    font-size: 10px;
-    padding-top: 15px;
-    text-align: center;
-  }
-}
 /* end Body 2 */
 .footer {
   padding: 50px;
