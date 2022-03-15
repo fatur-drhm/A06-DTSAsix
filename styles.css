@@ -37,6 +37,7 @@ a {
   max-width: 1466px;
   min-height: 550px;
   margin: auto;
+  background-color: #2d31fa;
 }
 
 .main-wrapper {
@@ -344,14 +345,14 @@ header img {
 
 /* end Body 2 */
 footer {
- height: 100px;
+  height: 100px;
   padding: 20px;
   text-align: center;
   background: rgba(5, 9, 103, 0.8);
   color: white;
 }
 
-.footer-list{
+.footer-list {
   margin-top: 20px;
 }
 
