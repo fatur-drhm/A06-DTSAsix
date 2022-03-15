@@ -221,6 +221,11 @@
     display: none;
   }
 
+  .fa-bars {
+    display: block!important;
+  }
+
+
   /* end body 2 */
 }
 @media all and (max-width: 1200px) {
