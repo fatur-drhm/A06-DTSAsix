@@ -123,8 +123,9 @@
   /* end responsive main */
   /* start body 2 */
   .body2 {
-    height: 560px;
-    margin-top: 330px;
+    width: 46rem;
+    height: 570px;
+    margin-top: 335px;
   }
   .ourteams {
     padding-left: 50px;
@@ -141,11 +142,11 @@
   }
 
   .ourteam-member {
-    padding: 15px;
+    padding: 25px 125px;
   }
   .ourteam-member img {
-    width: 10vw;
-    height: 10vw;
+    width: 20vw;
+    height: 20vw;
   }
 
   .ourteam-member h4 {

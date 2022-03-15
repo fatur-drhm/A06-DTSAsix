@@ -245,6 +245,58 @@ header img {
 }
 
 /* end header */
+/* Body 1 */
+.body1 {
+  height: 450px;
+  background-color: #2d31fa;
+}
+
+.about-container {
+  max-width: 80%;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+
+.about-title {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about-title h1 {
+  color: white;
+  font-size: 45px;
+  letter-spacing: 12px;
+}
+
+.about-main {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+}
+
+.about-img {
+  width: 50%;
+  text-align: center;
+}
+.about-img img {
+  max-width: 300px;
+}
+.about-text {
+  width: 50%;
+  text-align: justify;
+  color: white;
+}
+
+.about-text h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.about-text p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+/*end body 1*/
 
 /* Body 2 */
 .body2 {
