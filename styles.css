@@ -33,6 +33,8 @@ a {
 
 /* start main css */
 
+
+
 .main-container {
   max-width: 1466px;
   min-height: 550px;
@@ -246,6 +248,11 @@ header img{
 
 /* end header */
 
+.footer {
+    padding: 50px;
+    text-align: center;
+    background: rgba(5, 9, 103, 0.8);
+    color: white;
+  }
 
-
-
+/* end footer */
