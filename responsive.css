@@ -68,6 +68,11 @@
   .serv-content2 h5 {
     font-size: 10px;
   }
+
+  .header-left span {
+    display: none;
+  }
+
   /*  end responsive main  */
 }
 
@@ -173,4 +178,6 @@
     padding-top: 15px;
     text-align: center;
   }
+ 
+
 }
