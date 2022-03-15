@@ -152,17 +152,20 @@
   }
 }
 
-@media all and (max-width: 1000px) {
+@media all and (max-width: 1200px) {
   .body2 {
-    height: 700px;
+    height: 65vh;
   }
   .ourteam-member img {
-    width: 20vw;
-    height: 20vw;
+    width: 16vw;
+    height: 16vw;
   }
 
+  .ourteams {
+    padding: 4vw;
+  }
   .ourteam-member {
-    padding: 20px;
+    padding: 5px;
   }
 
   .ourteam-member h4 {
