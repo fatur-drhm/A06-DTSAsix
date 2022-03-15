@@ -343,11 +343,16 @@ header img {
 }
 
 /* end Body 2 */
-.footer {
-  padding: 50px;
+footer {
+ height: 100px;
+  padding: 20px;
   text-align: center;
   background: rgba(5, 9, 103, 0.8);
   color: white;
+}
+
+.footer-list{
+  margin-top: 20px;
 }
 
 /* end footer */
