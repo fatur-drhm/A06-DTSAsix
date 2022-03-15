@@ -83,16 +83,16 @@
     height: 600px;
   }
   .about-container {
-    max-width: 100%;
+    max-width: 95%;
   }
   .about-img {
-    width: 40%;
+    width: 45%;
   }
   .about-img img {
     max-width: 240px;
   }
   .about-text {
-    width: 40%;
+    width: 50%;
   }
   /* end of responsive body 1 @ 1000px */
 }
@@ -149,11 +149,11 @@
   /*start body 1*/
   .body1 {
     width: 46rem;
-    height: 930px;
+    height: 1100px;
   }
 
   .about-container {
-    max-width: 95%;
+    max-width: 100%;
   }
 
   .about-main {
@@ -167,19 +167,22 @@
   }
 
   .about-img img {
-    max-width: 240px;
+    max-width: 280px;
   }
 
   .about-text {
     margin-top: 20px;
+    width: 80%;
   }
 
   .about-text h2 {
-    font-size: 24px;
+    font-size: 28px;
+    margin-bottom: 20px;
   }
 
   .about-text p {
-    font-size: 18px;
+    font-size: 28px;
+    margin-bottom: 15px;
   }
   /*end body 1*/
   /* start body 2 */

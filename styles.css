@@ -268,7 +268,10 @@ header img {
   font-size: 45px;
   letter-spacing: 12px;
 }
-
+.about-title h1:hover {
+  color: #051367;
+  transition: ease 0.5s;
+}
 .about-main {
   display: flex;
   align-items: center;
