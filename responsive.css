@@ -99,6 +99,10 @@
 
 @media all and (max-width: 670px) {
   /*  start responsive main  */
+  .main-container {
+    width: fit-content;
+    height: 1100px;
+  }
   .main-wrapper {
     width: 46rem;
     text-align: center;
@@ -146,7 +150,6 @@
   .body1 {
     width: 46rem;
     height: 930px;
-    margin-top: 335px;
   }
 
   .about-container {
@@ -222,11 +225,14 @@
   }
 
   .fa-bars {
-    display: block!important;
+    display: block !important;
   }
 
-
   /* end body 2 */
+  /* start footer */
+  footer {
+    width: 750px;
+  }
 }
 @media all and (max-width: 1200px) {
   .body2 {

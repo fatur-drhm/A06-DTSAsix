@@ -238,7 +238,7 @@ header img {
   float: right;
   font-size: 25px;
   padding: 21px 0;
-  display: none!important;
+  display: none !important;
 }
 
 .fa-bars:hover {
@@ -344,8 +344,14 @@ header img {
 }
 
 /* end Body 2 */
+.containerfooter {
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
 footer {
   height: 100px;
+  width: 100%;
   padding: 20px;
   text-align: center;
   background-color: #051367;
