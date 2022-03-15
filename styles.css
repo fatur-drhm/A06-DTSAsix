@@ -282,8 +282,8 @@ header img {
   height: 175px;
 }
 .ourteam-member img:hover {
-  width: 250px;
-  height: 250px;
+  width: 18vw;
+  height: 18vw;
   transition: width 1s, height 1s;
 }
 
