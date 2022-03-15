@@ -348,8 +348,7 @@ footer {
   height: 100px;
   padding: 20px;
   text-align: center;
-  background: rgba(5, 9, 103, 0.8);
-  color: white;
+  background-color: #051367;
 }
 
 .footer-list {
