@@ -116,11 +116,10 @@
     font-size: 35px;
   }
   /* end responsive main */
-}
-
-@media all and (max-width: 670px) {
+  /* start body 2 */
   .body2 {
     height: 560px;
+    margin-top: 330px;
   }
   .ourteams {
     padding-left: 50px;
@@ -150,8 +149,8 @@
     padding-top: 15px;
     text-align: center;
   }
+  /* end body 2 */
 }
-
 @media all and (max-width: 1200px) {
   .body2 {
     height: 65vh;
