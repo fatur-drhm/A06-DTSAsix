@@ -127,12 +127,15 @@
   /* end responsive main */
   /* start body 2 */
   .body2 {
+    display: flex;
     width: 46rem;
-    height: 570px;
+    height: 100px;
     margin-top: 335px;
   }
   .ourteams {
-    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
   .ourteam-title h1 {
@@ -148,9 +151,10 @@
   .ourteam-member {
     padding: 25px 125px;
   }
+
   .ourteam-member img {
-    width: 20vw;
-    height: 20vw;
+    width: 200%;
+    height: 200%;
   }
 
   .ourteam-member h4 {
@@ -169,7 +173,7 @@
 }
 @media all and (max-width: 1200px) {
   .body2 {
-    height: 65vh;
+    height: 70vh;
   }
   .ourteam-member img {
     width: 16vw;
