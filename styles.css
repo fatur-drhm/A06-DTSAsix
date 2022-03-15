@@ -238,7 +238,7 @@ header img {
   float: right;
   font-size: 25px;
   padding: 21px 0;
-  display: block;
+  display: none!important;
 }
 
 .fa-bars:hover {
