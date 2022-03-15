@@ -33,8 +33,6 @@ a {
 
 /* start main css */
 
-
-
 .main-container {
   max-width: 1466px;
   min-height: 550px;
@@ -201,7 +199,7 @@ header {
   z-index: 10;
 }
 
-header img{
+header img {
   width: 125px;
   aspect-ratio: auto 125/100;
 }
@@ -248,11 +246,91 @@ header img{
 
 /* end header */
 
-.footer {
-    padding: 50px;
-    text-align: center;
-    background: rgba(5, 9, 103, 0.8);
-    color: white;
+/* Body 2 */
+.body2 {
+  height: 450px;
+  background-color: #2d31fa;
+}
+
+.ourteam-title h1 {
+  color: white;
+  font-size: 45px;
+  letter-spacing: 12px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.ourteams {
+  padding-left: 100px;
+}
+
+.ourteam-member {
+  float: left;
+  padding: 25px;
+}
+
+.ourteam-member h4 {
+  color: white;
+  padding-top: 15px;
+  text-align: center;
+}
+
+.ourteam-member img {
+  width: 175px;
+  height: 175px;
+}
+.ourteam-member img:hover {
+  width: 250px;
+  height: 250px;
+  transition: width 1s, height 1s;
+}
+
+.ourteam-title h1:hover {
+  color: #051367;
+  transition: ease 0.5s;
+}
+
+@media screen and (max-width: 800px) {
+  .ourteams {
+    padding-left: 50px;
   }
+
+  .ourteam-title h1 {
+    color: white;
+    font-size: 30px;
+    letter-spacing: 8px;
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+  }
+
+  .ourteam-member img {
+    width: 90px;
+    height: 90px;
+  }
+
+  .ourteam-member img:hover {
+    width: 160px;
+    height: 160px;
+    transition: width 1s, height 1s;
+  }
+
+  .ourteam-member h4 {
+    color: white;
+    font-size: 9px;
+    padding-top: 15px;
+    text-align: center;
+  }
+}
+/* end Body 2 */
+.footer {
+  padding: 50px;
+  text-align: center;
+  background: rgba(5, 9, 103, 0.8);
+  color: white;
+}
 
 /* end footer */
